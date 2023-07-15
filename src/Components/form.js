@@ -13,7 +13,7 @@ const EmailForm = () => {
         },
         body: JSON.stringify({ email: email }),
       });
-  
+
       if (response.ok) {
         console.log('Email sent successfully!');
       } else {
@@ -23,19 +23,19 @@ const EmailForm = () => {
       console.error('An error occurred:', error);
     }
   };
-  
-  return (
 
-    
-    <form className='mt-[10vh] z-1000' onSubmit={handleSubmit}>
-      <input 
-        className='h-[2.5rem] w-[47rem]  rounded-lg'
+  return (
+    <form className="mt-[10vh] z-1000">
+      <input
+        className="h-[2.5rem] sm:w-[24rem] md:w-[32rem] lg:w-[40rem] rounded-lg"
         type="email"
         placeholder="Enter your email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
-      <button className=' bg-indigo-300  h-[2.5rem] w-[6rem] pt-[1px] ml-2 rounded-lg text-stone-100' type="submit">SUBSCRIBE</button>
+      <button className="bg-indigo-300 h-[2.5rem] sm:w-[8rem] md:w-[12rem] lg:w-[16rem] pt-[1px] ml-2 rounded-lg text-stone-100" type="submit" onClick={handleSubmit}>
+        SUBSCRIBE
+      </button>
     </form>
   );
 };
