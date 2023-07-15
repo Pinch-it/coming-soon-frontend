@@ -7,12 +7,12 @@ import Gallery from './Components/Gallery';
 function App() {
   return (
     <div className="App bg-black h-[1000vh]   ">
-      <div className=' fixed  text-center  w-[100vw] top-0'>
+      <div className=' fixed  text-center  w-[100vw] p-[45px]'>
       <Navbar/>
        <h3 className='text-white ff text-center  '>COMING SOON</h3>
        <EmailForm/>
        <br/>
-        <div className="text-center text-gray-500 text-[25px] font-bold">Countdown to Digital Awesomeness: Brace Yourself for the Unveiling!</div>
+        <div className="text-center jj text-gray-500 text-[25px] font-bold">Countdown to Digital Awesomeness: Brace Yourself for the Unveiling!</div>
         </div>
         <div className='bg-fixed  ' >
           <Gallery/>

@@ -18,6 +18,10 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.jj{
+  font-family: Antonio;
+  font-size: 30px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -56,9 +60,9 @@ body {
 
 .cards {
   position: relative;
-  width: 14rem;
-  height: 18rem;
-  top: 75%;
+  width: 15rem;
+  height: 20rem;
+  top: 72%;
   left: 50%;
   transform: translate(-50%, -50%);
   list-style: none;
@@ -67,8 +71,8 @@ body {
 }
 
 .cards li {
-  width: 15rem;
-  height: 18rem;
+  width: 16rem;
+  height: 20rem;
   text-align: center;
   line-height: 18rem;
   font-size: 2rem;

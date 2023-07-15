@@ -29,13 +29,13 @@ const EmailForm = () => {
     
     <form className='mt-[10vh] z-1000' onSubmit={handleSubmit}>
       <input 
-        className='h-[2.5rem] w-[47rem] rounded-lg'
+        className='h-[2.5rem] w-[47rem] rounded-full p-[7px]'
         type="email"
         placeholder="Enter your email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
-      <button className=' bg-indigo-300  h-[2.5rem] w-[6rem] pt-[1px] ml-2 rounded-lg text-stone-100' type="submit">SUBSCRIBE</button>
+      <button className=' bg-indigo-300  h-[2.5rem] w-[6rem] pt-[1px] ml-2 rounded-full text-stone-100' type="submit">SUBSCRIBE</button>
     </form>
   );
 };
