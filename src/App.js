@@ -6,7 +6,7 @@ import Gallery from './Components/Gallery';
 
 function App() {
   return (
-    <div className="App bg-black h-[1000vh]   ">
+    <div className="App  h-[1000vh]   ">
       <div className=' fixed  text-center  w-[100vw] top-0'>
       <Navbar/>
        <h3 className='text-white ff text-center  '>COMING SOON</h3>

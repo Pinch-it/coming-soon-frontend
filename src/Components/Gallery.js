@@ -22,7 +22,7 @@ const Gallery = () => {
         {
           scale: 1,
           opacity: 1,
-          zIndex: 1,
+          zIndex: 0,
           duration: 0.5,
           yoyo: true,
           repeat: 1,
