@@ -22,7 +22,7 @@ const Gallery = () => {
         {
           scale: 1,
           opacity: 1,
-          zIndex: 1,
+          zIndex: 0,
           duration: 0.5,
           yoyo: true,
           repeat: 1,
@@ -47,7 +47,7 @@ const Gallery = () => {
       onUpdate() {
         seamlessLoop.time(wrapTime(playhead.offset));
       },
-      duration: 0.5,
+      duration: .5,
       ease: 'power3',
       paused: true,
     });
@@ -115,7 +115,7 @@ const Gallery = () => {
           dur || (dur = anim.duration());
         });
 
-      seamlessLoop.fromTo(rawSequence, { time: cycleDuration + dur / 2 }, {
+      seamlessLoop.fromTo(rawSequence, { time: cycleDuration + dur /2 }, {
         time: '+=' + cycleDuration,
         duration: cycleDuration,
         ease: 'none',
