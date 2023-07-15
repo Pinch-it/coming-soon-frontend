@@ -13,11 +13,40 @@
 color: #FFF;
 text-align: center;
 font-family: Antonio;
-font-size: 100px;
+
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+
+@media (max-width: 767px) {
+  /* Styles for mobile devices */
+  .ff {
+    font-size: 12vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for tablets */
+  .ff {
+    font-size: 20vw;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  /* Styles for smaller desktop screens */
+  .ff {
+    font-size: 30vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  /* Styles for larger desktop screens */
+  .ff {
+    font-size: 8vw;
+  }
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

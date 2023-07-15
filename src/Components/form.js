@@ -29,7 +29,7 @@ const EmailForm = () => {
     
     <form className='mt-[10vh] z-1000' onSubmit={handleSubmit}>
       <input 
-        className='h-[2.5rem] w-[47rem] rounded-lg'
+        className='h-[2.5rem] w-[47rem]  rounded-lg'
         type="email"
         placeholder="Enter your email"
         value={email}
