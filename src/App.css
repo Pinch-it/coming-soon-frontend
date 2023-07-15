@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.ff{
+color: #FFF;
+text-align: center;
+font-family: Antonio;
+font-size: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.gallery {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.cards {
+  position: relative;
+  width: 14rem;
+  height: 18rem;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cards li {
+  width: 15rem;
+  height: 18rem;
+  text-align: center;
+  line-height: 18rem;
+  font-size: 2rem;
+  font-family: sans-serif;
+  background-color: #5d6475;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.cards li img {
+  width: 100%;
+  border-radius: 18px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.actions {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-40%);
+}
+
+.drag-proxy {
+  visibility: hidden;
+  position: absolute;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
