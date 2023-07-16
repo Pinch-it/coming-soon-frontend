@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger, Draggable } from 'gsap/all';
+import gaming from '../images/Blue Dynamic Gaming Phone Wallpaper.png'
+import blockchain from "../images/blockchain.png"
 
 
 
@@ -144,8 +146,8 @@ const Gallery = () => {
     <div className="z-10 ">
       <div className="gallery">
         <ul className="cards">
-          <li>0</li>
-          <li>1</li>
+        <li><img src={gaming} alt /></li>
+          <li><img src={blockchain} alt/></li>
           <li>2</li>
           <li>3</li>
           <li>4</li>

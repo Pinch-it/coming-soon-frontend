@@ -9,6 +9,7 @@ function App() {
     <div className="App  h-[1000vh]   ">
       <div className=' fixed  text-center  w-[100vw] p-[20px]'>
       <Navbar/>
+
        <h3 className='text-white ff text-center mt-[10px] '>COMING SOON</h3>
        <EmailForm/>
        <br/>
