@@ -16,7 +16,7 @@ function App() {
         </div>
         <div className='bg-fixed ' >
           <Gallery/>
-      
+
         </div>
             
       
