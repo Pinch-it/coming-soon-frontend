@@ -146,8 +146,8 @@ const Gallery = () => {
     <div className="z-10 ">
       <div className="gallery">
         <ul className="cards">
-        <li><img src={gaming} alt /></li>
-          <li><img src={blockchain} alt/></li>
+        <li><img src={gaming} alt="Gaming"/></li>
+          <li><img src={blockchain} alt="Blockchain"/></li>
           <li>2</li>
           <li>3</li>
           <li>4</li>
