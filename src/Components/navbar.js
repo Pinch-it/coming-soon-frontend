@@ -3,6 +3,7 @@ import logo from '../images/pinchit.svg'
 
 import contact from '../images/contac-icon.png'
 import Page from '../Components/page'
+import Contact from '../Components/contact-me'
 const btnClass = {
   'btn': {
     backgroundColor: 'white',
@@ -27,7 +28,8 @@ function navbar() {
              <Page/>
             </button> 
             <button className={btnClass['btn']} style={{ position: 'absolute', top: '28px', right: '6%' }}>
-              <img src={contact} alt="Contact Me" />
+  
+            <Contact/>
             </button>
         </div>
     </div>

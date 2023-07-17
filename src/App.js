@@ -2,6 +2,7 @@
 import './App.css';
 import EmailForm from './Components/form';
 import Navbar from './Components/navbar';
+import Contact from './Components/contact-me'
 import Gallery from './Components/Gallery';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Gallery/>
       
         </div>
+        {/* <Contact/> */}
             
       
       

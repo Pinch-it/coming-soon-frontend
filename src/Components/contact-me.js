@@ -1,7 +1,8 @@
+
 "use client";
 
 import { useState, useRef } from "react";
-import faq from "../images/faq-icon 1.png";
+import contact from '../images/contac-icon.png'
 import {
   Accordion,
   AccordionHeader,
@@ -27,46 +28,6 @@ function Icon({ id, open }) {
     </svg>
   );
 }
-
-const Questions = [
-  {
-    id: 1,
-    question: <Typography color="white">"What is Lorem ipsum?"</Typography>,
-    answer: (
-      <Typography color="white" className="text-justify">
-        "Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. ",
-      </Typography>
-    ),
-  },
-  {
-    id: 2,
-    question: <Typography color="white">"What is Lorem ipsum?"</Typography>,
-    answer: (
-      <Typography color="white" className="text-justify">
-        "Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. ",
-      </Typography>
-    ),
-  },
-  {
-    id: 3,
-    question: <Typography color="white">"What is Lorem ipsum?"</Typography>,
-    answer: (
-      <Typography color="white" className="text-justify">
-        "Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. ",
-      </Typography>
-    ),
-  },
-];
-
 export default function Home() {
   const [open, setOpen] = useState(false);
   const handleDrawer = () => setOpen(!open);
@@ -80,7 +41,7 @@ export default function Home() {
   return (
     <>
       <button onClick={handleDrawer} className="p-3">
-        <img src={faq} alt="FAQ" className=" h-[35px] ml-[10px]" />
+        <img src={contact} alt="Contact-Me" className=" h-[45px] mt-[-6px]"  />
       </button>
       <div
         ref={clickRef}
@@ -90,17 +51,19 @@ export default function Home() {
       >
         <div className="mb-2 flex items-center justify-between">
           <Typography variant="h5" color="white">
-            General FAQs
+            Contact Me
           </Typography>
           <IconButton variant="text" color="white" onClick={handleDrawer}>
             <XMarkIcon strokeWidth={2} className="h-5 w-5" />
           </IconButton>
         </div>
         <div className="flex flex-col items-center justify-start p-3 h-full overflow-y-scroll">
-          {Questions.map((question, index) => (
+
+            <div className="flex space-around">
+              
+            </div>
+          {/* {Questions.map((question, index) => (
             <Accordion
-              key={question.id}
-              open={openAccordion === question.id}
               icon={<Icon id={question.id} open={openAccordion} />}
               className={
                 index + 1 === Questions.length
@@ -116,7 +79,7 @@ export default function Home() {
               </AccordionHeader>
               <AccordionBody>{question.answer}</AccordionBody>
             </Accordion>
-          ))}
+          ))} */}
         </div>
       </div>
     </>
