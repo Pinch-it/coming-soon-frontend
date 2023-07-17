@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
+import faq from '../images/faq-icon 1.png'
 import {
   Accordion,
   AccordionHeader,
@@ -72,8 +73,8 @@ export default function Home() {
   };
 
   return (
-    <>
-      <Button onClick={handleDrawer}>Open Drawer</Button>
+    < >
+      <Button onClick={handleDrawer}><img src={faq} alt="FAQ" /></Button>
       <div
         ref={clickRef}
         className={`${
