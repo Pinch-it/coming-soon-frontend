@@ -97,13 +97,13 @@ export default function Home() {
           </IconButton>
         </div>
         <div className="flex flex-col items-center justify-start p-3 h-full overflow-y-scroll">
-          {Questions.map((question) => (
+          {Questions.map((question, index) => (
             <Accordion
               key={question.id}
               open={openAccordion === question.id}
               icon={<Icon id={question.id} open={openAccordion} />}
               className={
-                question.id === Questions.length
+                index + 1 === Questions.length
                   ? "border-none"
                   : "border-b-2 border-[#4f5b66]"
               }
