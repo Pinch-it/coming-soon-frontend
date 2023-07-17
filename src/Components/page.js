@@ -32,33 +32,18 @@ function Icon({ id, open }) {
 const Questions = [
   {
     id: 1,
-    question: "What is Lorem ipsum?",
-    answer:
+    question: <Typography color="white">"What is Lorem ipsum?"</Typography>,
+    answer:<Typography color="white">
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+  </Typography>
   },
   {
     id: 2,
-    question: "What is Lorem ipsum?",
+    question: <Typography color="white">"What is Lorem ipsum?"</Typography>,
     answer:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-  },
-  {
-    id: 3,
-    question: "What is Lorem ipsum?",
-    answer:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-  },
-  {
-    id: 4,
-    question: "What is Lorem ipsum?",
-    answer:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-  },
-  {
-    id: 5,
-    question: "What is Lorem ipsum?",
-    answer:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+    <Typography color="white">
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+</Typography>,
   },
 ];
 
@@ -82,10 +67,10 @@ export default function Home() {
         } fixed sm:top-2 sm:right-2 z-40 ease-in-out duration-300 sm:w-[95vw] md:w-[50vw] lg:w-[30vw] m-2 sm:m-3 p-5 rounded-lg backdrop-blur-md h-full`}
       >
         <div className="mb-2 flex items-center justify-between">
-          <Typography variant="h5" color="black">
+          <Typography variant="h5" color="white">
             General FAQs
           </Typography>
-          <IconButton variant="text" color="blue-gray" onClick={handleDrawer}>
+          <IconButton variant="text" color="white" onClick={handleDrawer}>
             <XMarkIcon strokeWidth={2} className="h-5 w-5" />
           </IconButton>
         </div>

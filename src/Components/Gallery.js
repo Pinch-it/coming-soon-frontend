@@ -153,6 +153,8 @@ const Gallery = () => {
           <li>4</li>
           <li>5</li>
           <li>6</li>
+          <li>7</li>
+          <li>8</li>
         </ul>
       </div>
       <div className="drag-proxy"></div>
