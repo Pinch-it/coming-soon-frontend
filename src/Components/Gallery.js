@@ -2,9 +2,14 @@ import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger, Draggable } from 'gsap/all';
 import gaming from '../images/Blue Dynamic Gaming Phone Wallpaper.png'
-import blockchain from "../images/blockchain.png"
+import blockchain from "../images/blockchain.jpg"
 import cloud from "../images/Cloud Computing.png"
-
+import AI from "../images/AI.jpg"
+import ARVR from "../images/ARVR.jpg"
+import WebDev from "../images/WebDev.jpg"
+import CyberSecurity from "../images/CyberSecurity.jpg"
+import DataScience from"../images/DataScience.jpg"
+import AppDev from "../images/AppDev.jpg"
 
 
 const Gallery = () => {
@@ -150,12 +155,12 @@ const Gallery = () => {
         <li><img src={gaming} alt="Gaming"/></li>
           <li><img src={blockchain} alt="Blockchain"/></li>
           <li><img src={cloud} alt="cloud"/></li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
-          <li>7</li>
-          <li>8</li>
+          <li><img src={AI} alt="AI"/></li>
+          <li><img src={ARVR} alt="ARVR"/></li>
+          <li><img src={DataScience} alt="DataScience"/></li>
+          <li><img src={WebDev} alt="WebDev"/></li>
+          <li><img src={AppDev} alt="AppDev"/></li>
+          <li><img src={CyberSecurity} alt="CyberSecurity"/></li>
         </ul>
       </div>
       <div className="drag-proxy"></div>
