@@ -3,7 +3,7 @@ import './App.css';
 import EmailForm from './Components/form';
 import Navbar from './Components/navbar';
 import Gallery from './Components/Gallery';
-import Page from './Components/page'
+
 function App() {
   return (
     <div className="App  h-[1000vh]   ">
@@ -17,11 +17,11 @@ function App() {
         </div>
         <div className='bg-fixed ' >
           <Gallery/>
-
+      
         </div>
             
       
-      <Page/>
+      
     </div>
   );
 }

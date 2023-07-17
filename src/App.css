@@ -91,8 +91,8 @@ body {
 .cards {
   position: relative;
   width: 15rem;
-  height: 20rem;
-  top: 75%;
+  height: 16rem;
+  top: 74%;
   left: 50%;
   transform: translate(-50%, -50%);
   list-style: none;

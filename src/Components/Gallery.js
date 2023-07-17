@@ -3,6 +3,7 @@ import gsap from 'gsap';
 import { ScrollTrigger, Draggable } from 'gsap/all';
 import gaming from '../images/Blue Dynamic Gaming Phone Wallpaper.png'
 import blockchain from "../images/blockchain.png"
+import cloud from "../images/Cloud Computing.png"
 
 
 
@@ -148,7 +149,7 @@ const Gallery = () => {
         <ul className="cards">
         <li><img src={gaming} alt="Gaming"/></li>
           <li><img src={blockchain} alt="Blockchain"/></li>
-          <li>2</li>
+          <li><img src={cloud} alt="cloud"/></li>
           <li>3</li>
           <li>4</li>
           <li>5</li>
