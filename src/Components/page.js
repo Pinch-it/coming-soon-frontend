@@ -1,14 +1,13 @@
 "use client";
 
 import { useState, useRef } from "react";
-import faq from '../images/faq-icon 1.png'
+import faq from "../images/faq-icon 1.png";
 import {
   Accordion,
   AccordionHeader,
   AccordionBody,
   Typography,
   IconButton,
-  Button,
 } from "@material-tailwind/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 
@@ -33,17 +32,38 @@ const Questions = [
   {
     id: 1,
     question: <Typography color="white">"What is Lorem ipsum?"</Typography>,
-    answer:<Typography color="white">
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-  </Typography>
+    answer: (
+      <Typography color="white" className="text-justify">
+        "Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. ",
+      </Typography>
+    ),
   },
   {
     id: 2,
     question: <Typography color="white">"What is Lorem ipsum?"</Typography>,
-    answer:
-    <Typography color="white">
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-</Typography>,
+    answer: (
+      <Typography color="white" className="text-justify">
+        "Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. ",
+      </Typography>
+    ),
+  },
+  {
+    id: 3,
+    question: <Typography color="white">"What is Lorem ipsum?"</Typography>,
+    answer: (
+      <Typography color="white" className="text-justify">
+        "Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. ",
+      </Typography>
+    ),
   },
 ];
 
@@ -58,8 +78,10 @@ export default function Home() {
   };
 
   return (
-    < >
-      <Button onClick={handleDrawer}><img src={faq} alt="FAQ" /></Button>
+    <>
+      <button onClick={handleDrawer} className="p-3">
+        <img src={faq} alt="FAQ" />
+      </button>
       <div
         ref={clickRef}
         className={`${
@@ -80,8 +102,16 @@ export default function Home() {
               key={question.id}
               open={openAccordion === question.id}
               icon={<Icon id={question.id} open={openAccordion} />}
+              className={
+                question.id === Questions.length
+                  ? "border-none"
+                  : "border-b-2 border-[#4f5b66]"
+              }
             >
-              <AccordionHeader onClick={() => handleAccordion(question.id)}>
+              <AccordionHeader
+                onClick={() => handleAccordion(question.id)}
+                className="border-none"
+              >
                 {question.question}
               </AccordionHeader>
               <AccordionBody>{question.answer}</AccordionBody>
