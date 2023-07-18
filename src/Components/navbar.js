@@ -1,7 +1,5 @@
 import React from 'react'
 import logo from '../images/pinchit.svg'
-
-import contact from '../images/contac-icon.png'
 import Page from '../Components/page'
 import Contact from '../Components/contact-me'
 const btnClass = {
@@ -27,7 +25,7 @@ function navbar() {
             <button className={btnClass['btn']}  style={{ position: 'absolute', top: '28px', right: '3%' }}>
              <Page/>
             </button> 
-            <button className={btnClass['btn']} style={{ position: 'absolute', top: '28px', right: '6%' }}>
+            <button className={btnClass['btn']} style={{ position: 'absolute', top: '28px', right: '7%' }}>
   
             <Contact/>
             </button>
