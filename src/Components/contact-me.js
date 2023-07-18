@@ -2,11 +2,11 @@
 "use client";
 
 import { useState, useRef } from "react";
-import contact from '../images/contac-icon.png'
+import contact from '../images/contac-icon.svg'
 import {
-  Accordion,
-  AccordionHeader,
-  AccordionBody,
+  // Accordion,
+  // AccordionHeader,
+  // AccordionBody,
   Typography,
   IconButton,
 } from "@material-tailwind/react";
@@ -31,23 +31,18 @@ function Icon({ id, open }) {
 export default function Home() {
   const [open, setOpen] = useState(false);
   const handleDrawer = () => setOpen(!open);
-  const [openAccordion, setOpenAccordion] = useState(0);
+  // const [openAccordion, setOpenAccordion] = useState(0);
   const clickRef = useRef();
-
-  const handleAccordion = (value) => {
-    setOpenAccordion(openAccordion === value ? 0 : value);
-  };
-
   return (
     <>
       <button onClick={handleDrawer} className="p-3">
-        <img src={contact} alt="Contact-Me" className=" h-[45px] mt-[-6px]"  />
+        <img src={contact} alt="Contact-Me" className=" h-[25px] mt-[-6px]"  />
       </button>
       <div
         ref={clickRef}
         className={`${
           open ? "translate-x-0" : "translate-x-[100vw]"
-        } fixed sm:top-2 sm:right-2 z-40 ease-in-out duration-300 sm:w-[95vw] md:w-[50vw] lg:w-[30vw] m-2 sm:m-3 p-5 rounded-lg backdrop-blur-md h-full`}
+        } fixed sm:top-2 sm:right-2 z-40 ease-in-out duration-300 sm:w-[95vw] md:w-[50vw] lg:w-[30vw] m-2 sm:m-3 p-5 rounded-lg backdrop-blur-md h-half`}
       >
         <div className="mb-2 flex items-center justify-between">
           <Typography variant="h5" color="white">
@@ -57,29 +52,13 @@ export default function Home() {
             <XMarkIcon strokeWidth={2} className="h-5 w-5" />
           </IconButton>
         </div>
-        <div className="flex flex-col items-center justify-start p-3 h-full overflow-y-scroll">
+        <div className="flex flex-col items-center justify-start p-3 h-half">
 
-            <div className="flex space-around">
-              
+        <div className="flex space-around">
+              <div className="boc" style={{ height: "200px" }}>
+                
+              </div>
             </div>
-          {/* {Questions.map((question, index) => (
-            <Accordion
-              icon={<Icon id={question.id} open={openAccordion} />}
-              className={
-                index + 1 === Questions.length
-                  ? "border-none"
-                  : "border-b-2 border-[#4f5b66]"
-              }
-            >
-              <AccordionHeader
-                onClick={() => handleAccordion(question.id)}
-                className="border-none"
-              >
-                {question.question}
-              </AccordionHeader>
-              <AccordionBody>{question.answer}</AccordionBody>
-            </Accordion>
-          ))} */}
         </div>
       </div>
     </>

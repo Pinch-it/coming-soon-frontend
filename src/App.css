@@ -21,6 +21,7 @@ line-height: normal;
 .jj{
   font-family: Antonio;
   font-size: 30px;
+  margin-top: -2px;
 }
 
 @media (max-width: 767px) {
