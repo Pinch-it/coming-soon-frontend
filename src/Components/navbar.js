@@ -20,15 +20,20 @@ const btnClass = {
 function navbar() {
   return (
     <div>
-        <div className="flex justify-content-end">
-            <img src={logo} className='max-md:w-[15vw] max-lg:w-[12vw] w-[8vw] max-sm:w-[25vw] pt-2 pl-2 ' alt='logo' />
-            <button className={btnClass['btn']}  style={{ position: 'absolute', top: '28px', right: '3%' }}>
+        <div className="flex w-[95vw] justify-between px-[10px]">
+          <div>
+            <img src={logo} className='max-md:w-[15vw] max-lg:w-[12vw] w-[8vw] max-sm:w-[25vw] pt-2 pl-2' alt='logo' />
+            </div>
+
+            <div>
+             <button className={btnClass['btn']}  style={{ position: 'relative'}}>
              <Page/>
             </button> 
-            <button className={btnClass['btn']} style={{ position: 'absolute', top: '28px', right: '7%' }}>
+            <button   className={btnClass['btn']} style={{ position: 'relative' }}>
   
             <Contact/>
-            </button>
+            </button> 
+            </div>
         </div>
     </div>
   )

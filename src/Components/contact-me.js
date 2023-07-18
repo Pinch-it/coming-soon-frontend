@@ -1,6 +1,6 @@
 
 "use client";
-
+import EF from '../Components/ef'
 import { useState, useRef } from "react";
 import contact from '../images/contac-icon.png'
 import {
@@ -60,7 +60,7 @@ export default function Home() {
         <div className="flex flex-col items-center justify-start p-3 h-full overflow-y-scroll">
 
             <div className="flex space-around">
-              
+                 <EF/>
             </div>
           {/* {Questions.map((question, index) => (
             <Accordion
