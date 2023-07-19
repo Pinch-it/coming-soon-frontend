@@ -2,11 +2,11 @@
 "use client";
 import EF from '../Components/ef'
 import { useState, useRef } from "react";
-import contact from '../images/contac-icon.svg'
+import contact from '../images/faq.svg'
 import {
-  Accordion,
-  AccordionHeader,
-  AccordionBody,
+  // Accordion,
+  // AccordionHeader,
+  // AccordionBody,
   Typography,
   IconButton,
 } from "@material-tailwind/react";
@@ -31,7 +31,7 @@ import { XMarkIcon } from "@heroicons/react/24/outline";
 export default function Home() {
   const [open, setOpen] = useState(false);
   const handleDrawer = () => setOpen(!open);
-  const [openAccordion, setOpenAccordion] = useState(0);
+  // const [openAccordion, setOpenAccordion] = useState(0);
   const clickRef = useRef();
 
   // const handleAccordion = (value) => {
