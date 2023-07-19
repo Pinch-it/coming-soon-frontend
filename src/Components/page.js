@@ -80,7 +80,7 @@ export default function Home() {
   return (
     <>
       <button onClick={handleDrawer} className="p-3">
-        <img src={faq} alt="FAQ" className=" h-[35px] ml-[10px]" />
+        <img src={faq} alt="FAQ" className=" h-[33px] ml-[10px]" />
       </button>
       <div
         ref={clickRef}

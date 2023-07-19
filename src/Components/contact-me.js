@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <>
       <button onClick={handleDrawer} className="p-3">
-        <img src={contact} alt="Contact-Me" className=" h-[25px] mt-[-6px]"  />
+        <img src={contact} alt="Contact-Me" className=" h-[32px] mt-[-6px]"  />
       </button>
       <div
         ref={clickRef}
