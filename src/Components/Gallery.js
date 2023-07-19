@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger, Draggable } from 'gsap/all';
-import gaming from '../images/Blue Dynamic Gaming Phone Wallpaper.png'
+import gaming from '../images/Gaming.jpg'
 import blockchain from "../images/blockchain.jpg"
-import cloud from "../images/Cloud Computing.png"
+import cloud from "../images/Cloud Computing.jpg"
 import AI from "../images/AI.jpg"
 import ARVR from "../images/ARVR.jpg"
 import WebDev from "../images/WebDev.jpg"
