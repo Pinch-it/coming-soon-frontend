@@ -29,8 +29,7 @@ function navbar() {
              <button className={btnClass['btn']}  style={{ position: 'relative'}}>
              <Page/>
             </button> 
-            <button   className={btnClass['btn']} style={{ position: 'relative' }}>
-  
+            <button className={btnClass['btn']} style={{ position: 'absolute', top: '28px', right: '6%' }}>
             <Contact/>
             </button> 
             </div>

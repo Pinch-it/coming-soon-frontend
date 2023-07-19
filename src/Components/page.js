@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import faq from "../images/faq-icon 1.png";
+import faq from "../images/contac-icon.svg";
 import {
   Accordion,
   AccordionHeader,
