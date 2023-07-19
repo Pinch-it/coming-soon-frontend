@@ -22,7 +22,7 @@ function navbar() {
     <div>
         <div className="flex w-[95vw] justify-between px-[10px]">
           <div>
-            <img src={logo} className='max-md:w-[15vw] max-lg:w-[12vw] w-[8vw] max-sm:w-[25vw] pt-2 pl-2' alt='logo' />
+            <img src={logo} className='w-[100px] sm:w-[20vw] md:w-[12vw] lg:w-[14vw] pt-2 pl-2' alt='logo' />
             </div>
 
             <div>
