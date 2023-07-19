@@ -2,7 +2,7 @@
 "use client";
 import EF from '../Components/ef'
 import { useState, useRef } from "react";
-import contact from '../images/faq.svg'
+import contact from '../images/contac-icon.svg'
 import {
   // Accordion,
   // AccordionHeader,
@@ -59,10 +59,8 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center justify-start p-3 h-half">
 
-        <div className="flex space-around">
-              <div className="boc" style={{ height: "200px" }}>
-                
-              </div>
+            <div className="flex space-around">
+                 <EF/>
             </div>
         </div>
       </div>
