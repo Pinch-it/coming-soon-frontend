@@ -47,7 +47,7 @@ export default function Home() {
         ref={clickRef}
         className={`${
           open ? "translate-x-0" : "translate-x-[100vw]"
-        } fixed sm:top-2 sm:right-2 z-40 ease-in-out duration-300 sm:w-[95vw] md:w-[50vw] lg:w-[30vw] m-2 sm:m-3 p-5 rounded-lg backdrop-blur-md h-half`}
+        } fixed sm:top-2 right-2 z-40 ease-in-out duration-300 sm:w-[95vw] md:w-[50vw] lg:w-[30vw] m-2 sm:m-3 p-5 rounded-lg backdrop-blur-md h-full`}
       >
         <div className="mb-2 flex items-center justify-between">
           <Typography variant="h5" color="white">

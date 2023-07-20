@@ -10,12 +10,12 @@ const EmailForm = () => {
   };
 
   return (
-    <div className="flex">
+    <div className="flex  max-sm:column">
       <form>
-        <label>Email:</label>
-        <input className="bg-white rounded-xl h-[2rem] px-[10px]" type="text" value={email} readOnly />
+      
+        <input className="bg-white rounded-xl h-[2rem] px-[10px] text-center" type="text" value={email} readOnly />
       </form>
-      <button className="bg-indigo-300 h-[2rem] text-white px-[5px] ml-2 rounded-full text-stone-100 text-stone-100" onClick={copyToClipboard}>Copy Email</button>
+      <button className="bg-indigo-300 h-[2rem] text-white px-[15px] ml-2 rounded-full text-stone-100 text-stone-100   " onClick={copyToClipboard}>Copy</button>
     </div>
   );
 };
