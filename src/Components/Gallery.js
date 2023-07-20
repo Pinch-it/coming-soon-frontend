@@ -1,15 +1,6 @@
 import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger, Draggable } from 'gsap/all';
-import gaming from '../images/Gaming.jpg'
-import blockchain from "../images/blockchain.jpg"
-import cloud from "../images/Cloud Computing.jpg"
-import AI from "../images/AI.jpg"
-import ARVR from "../images/ARVR.jpg"
-import WebDev from "../images/WebDev.jpg"
-import CyberSecurity from "../images/CyberSecurity.jpg"
-import DataScience from"../images/DataScience.jpg"
-import AppDev from "../images/AppDev.jpg"
 
 
 const Gallery = () => {
@@ -152,15 +143,15 @@ const Gallery = () => {
     <div className="z-10 ">
       <div className="gallery">
         <ul className="cards">
-        <li><img src={gaming} alt="Gaming"/></li>
-          <li><img src={blockchain} alt="Blockchain"/></li>
-          <li><img src={cloud} alt="cloud"/></li>
-          <li><img src={AI} alt="AI"/></li>
-          <li><img src={ARVR} alt="ARVR"/></li>
-          <li><img src={DataScience} alt="DataScience"/></li>
-          <li><img src={WebDev} alt="WebDev"/></li>
-          <li><img src={AppDev} alt="AppDev"/></li>
-          <li><img src={CyberSecurity} alt="CyberSecurity"/></li>
+        <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-zKGw4YHuv8AN3G-I4OQSNzkLW2EarWfXODNtL7TM2YxI8_U2NAKjnK2mJF2EEqfwrud57eh8FfzHeXQMm8Ak0tWlGw4Q=s1600" alt="Gaming"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xjEzdMtG_4MNF70GrTFOAv9DbeRDGk4YqY2Tzy7zfwTPu55mv1n-2JQ9dVkucEXIK9-wehxl-ZV53Zp-0YBKz4_Bsx=s1600" alt="Blockchain"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xcqn6lji5dghhoJNMiA5WgSDNJ-bfDfw8pdSk-_O34GUr71xizV8dGx6eEs7D1RfAen_le4O2KS0nVeEi2z0Jc3Y9pSQ=s1600" alt="cloud"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wqHfzdfywGoWlmf8T-Qfcx9YfOIw3ekXGD8KlVu3Y-GN27AqG0QNB-YrmgKG-rCinkkMM1xMA89ECT47YwJ0PvgQXNFQ=s1600" alt="AI"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wPFJPiCgzNfVgT9mmehAI2qLGTY65ERzoleXx-OWnvKkkfvhr7koTnf01Zzk_EqKM70PF1kAmu1jb3CfDn4p9pC54Vtw=s1600" alt="ARVR"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-ylFHQJD6OENsIeGNHKghYrLFZ_263RubRDBmrBj2ZL443ubGvpAgP94BG2CVplHvBevCcWtdMKPvjp4Xs1al-L0fsT3Q=s1600" alt="DataScience"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xV9POJoOJQFCix1qUhOTAaaUAmh0SegD6pyd9_okvENRHU8EWwFpTCk_IfFoBHqdpJ7E7QsSNGIW9fnUuKcKusyfZQkg=s1600" alt="WebDev"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-w6SqeFmFjUM1MI1tcyuZef66-OOpMcHv-5K1o-D-AIFYMRXU7-98UrkAAtA0A4eneMNSmNx1u6J9NVKvF85A=s1600" alt="AppDev"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xjxGNntlcKGHDE2owrOgk3RWrHWuB5_4QbJecvp02X_omP4stg97SO_TwBA8gE4cI1wzXnk_EHmdKibg7aHZ8yGxkz=s1600" alt="CyberSecurity"/></li>
         </ul>
       </div>
       <div className="drag-proxy"></div>
