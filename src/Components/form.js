@@ -49,7 +49,7 @@ const EmailForm = () => {
   };
 
   return (
-    <form className="mt-[10vh] z-1000">
+    <form className="mt-[5vh] z-1000">
       <input
         className={`h-[2.5rem] sm:w-[24rem] md:w-[32rem] lg:w-[40rem] px-[7px] rounded-full ${!isValidEmail && emailSubmitted ? 'border-red-500' : ''}`}
         type="email"
@@ -61,7 +61,7 @@ const EmailForm = () => {
         SUBSCRIBE
       </button>
       {!isValidEmail && emailSubmitted && (
-        <p className="text-red-500 text-sm mt-2 relative">
+        <p className="text-red-500 text-sm mt-1 relative">
           Invalid email address
         </p>
       )}
