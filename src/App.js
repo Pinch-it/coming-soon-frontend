@@ -10,7 +10,7 @@ function App() {
     <div className="App  h-[1000vh]   ">
       <div className=' fixed  text-center  w-[100vw] p-[20px]'>
       <Navbar/>
-       <h3 className='text-white ff text-center mt-[5px] '>COMING SOON</h3>
+       <h3 className='text-white ff text-center mt-[3vh] '>COMING SOON</h3>
        <EmailForm/>
        <br/>
         <div className="text-center jj text-gray-500 text-[25px] font-bold">Countdown to Digital Awesomeness: Brace Yourself for the Unveiling!</div>
