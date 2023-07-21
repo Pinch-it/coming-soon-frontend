@@ -148,7 +148,7 @@ const Gallery = () => {
           <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xcqn6lji5dghhoJNMiA5WgSDNJ-bfDfw8pdSk-_O34GUr71xizV8dGx6eEs7D1RfAen_le4O2KS0nVeEi2z0Jc3Y9pSQ=s1600" alt="cloud"/></li>
           <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wqHfzdfywGoWlmf8T-Qfcx9YfOIw3ekXGD8KlVu3Y-GN27AqG0QNB-YrmgKG-rCinkkMM1xMA89ECT47YwJ0PvgQXNFQ=s1600" alt="AI"/></li>
           <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wPFJPiCgzNfVgT9mmehAI2qLGTY65ERzoleXx-OWnvKkkfvhr7koTnf01Zzk_EqKM70PF1kAmu1jb3CfDn4p9pC54Vtw=s1600" alt="ARVR"/></li>
-          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-ylFHQJD6OENsIeGNHKghYrLFZ_263RubRDBmrBj2ZL443ubGvpAgP94BG2CVplHvBevCcWtdMKPvjp4Xs1al-L0fsT3Q=s1600" alt="DataScience"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-zbLFX70wmqTcoBR7f7E2wB7Sb7hfhemA8YX15m0a_netsTX3eLcGQiw1PMP4e303IKAAD6jGFsM27hiII7_Y0f-7xTvQ=s1600" alt="DataScience"/></li>
           <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xV9POJoOJQFCix1qUhOTAaaUAmh0SegD6pyd9_okvENRHU8EWwFpTCk_IfFoBHqdpJ7E7QsSNGIW9fnUuKcKusyfZQkg=s1600" alt="WebDev"/></li>
           <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-w6SqeFmFjUM1MI1tcyuZef66-OOpMcHv-5K1o-D-AIFYMRXU7-98UrkAAtA0A4eneMNSmNx1u6J9NVKvF85A=s1600" alt="AppDev"/></li>
           <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xjxGNntlcKGHDE2owrOgk3RWrHWuB5_4QbJecvp02X_omP4stg97SO_TwBA8gE4cI1wzXnk_EHmdKibg7aHZ8yGxkz=s1600" alt="CyberSecurity"/></li>
