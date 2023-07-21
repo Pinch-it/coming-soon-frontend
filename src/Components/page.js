@@ -31,37 +31,37 @@ function Icon({ id, open }) {
 const Questions = [
   {
     id: 1,
-    question: <Typography color="white">"What is Pinch.it?"</Typography>,
+    question: <Typography color="white">"What is Lorem ipsum?"</Typography>,
     answer: (
       <Typography color="white" className="text-justify">
-        "Welcome to Pinchit, a secret gathering of tech enthusiasts! Explore the secrets of cutting-edge technology in a thriving development community. Uncover secret upgrades, demonstrate your technological prowess, and embrace the spirit of innovation. Join the mystery - the great reveal awaits. 🔍💻🌐",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. ",
       </Typography>
     ),
   },
   {
     id: 2,
-    question: <Typography color="white">"Who are we?"</Typography>,
+    question: <Typography color="white">"What is Lorem ipsum?"</Typography>,
     answer: (
       <Typography color="white" className="text-justify">
-        "Step into the remarkable nexus of the future, where varied hearts combine in quest of the unknown. Accept limitless connections, partnerships, and celebrations as we embark on an enigma together. Join us and you'll be at the cutting edge of tomorrow's infinite possibilities. The future is waiting for you.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. ",
       </Typography>
     ),
   },
   {
     id: 3,
-    question: <Typography color="white">"Why is Pinch.it?"</Typography>,
+    question: <Typography color="white">"What is Lorem ipsum?"</Typography>,
     answer: (
       <Typography color="white" className="text-justify">
-        "Enter the digital shadows of Pinchit, the underground haven for tech visionaries and code rebels. Enjoy the excitement of deciphering mysterious updates on cutting-edge technologies. Display your work among the thrilling camaraderie of other tech rebels. Prepare for an adrenaline-fueled adventure through the coolest tech community. It will be revealed soon!",
-      </Typography>
-    ),
-  },
-  {
-    id: 4,
-    question: <Typography color="white">"When can you see us?"</Typography>,
-    answer: (
-      <Typography color="white" className="text-justify">
-        "We are presently working on our entire throttel, and you may anticipate us to debut at any moment soon. Please hold your breath, for once we are launched, we will not be stopping. Please click the subscribe button to never miss an update from Pinchit.",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. ",
       </Typography>
     ),
   },
@@ -91,7 +91,7 @@ export default function Home() {
       >
         <div className="mb-2 flex items-center justify-between">
           <Typography variant="h5" color="white">
-            Your Right To Know
+            General FAQs
           </Typography>
           <IconButton variant="text" color="white" onClick={handleDrawer}>
             <XMarkIcon strokeWidth={2} className="h-5 w-5" />
