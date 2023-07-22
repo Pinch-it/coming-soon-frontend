@@ -31,37 +31,37 @@ function Icon({ id, open }) {
 const Questions = [
   {
     id: 1,
-    question: <Typography color="white">"What is Pinch.it?"</Typography>,
+    question: <Typography color="white">What is Pinch.it?</Typography>,
     answer: (
       <Typography color="white" className="text-justify">
-        "Welcome to Pinchit, a secret gathering of tech enthusiasts! Explore the secrets of cutting-edge technology in a thriving development community. Uncover secret upgrades, demonstrate your technological prowess, and embrace the spirit of innovation. Join the mystery - the great reveal awaits. 🔍💻🌐",
+        Welcome to Pinchit, a secret gathering of tech enthusiasts! Explore the secrets of cutting-edge technology in a thriving development community. Uncover secret upgrades, demonstrate your technological prowess, and embrace the spirit of innovation. Join the mystery—the great reveal awaits! 🔍💻🌐,
       </Typography>
     ),
   },
   {
     id: 2,
-    question: <Typography color="white">"Who are we?"</Typography>,
+    question: <Typography color="white">Who are we?</Typography>,
     answer: (
       <Typography color="white" className="text-justify">
-        "Step into the remarkable nexus of the future, where varied hearts combine in quest of the unknown. Accept limitless connections, partnerships, and celebrations as we embark on an enigma together. Join us and you'll be at the cutting edge of tomorrow's infinite possibilities. The future is waiting for you.",
+        Step into the remarkable nexus of the future, where varied hearts combine in quest of the unknown. Accept limitless connections, partnerships, and celebrations as we embark on an enigma together. Join us, and you'll be at the cutting edge of tomorrow's infinite possibilities. The future is waiting for you.
       </Typography>
     ),
   },
   {
     id: 3,
-    question: <Typography color="white">"Why is Pinch.it?"</Typography>,
+    question: <Typography color="white">Why is Pinch.it?</Typography>,
     answer: (
       <Typography color="white" className="text-justify">
-        "Enter the digital shadows of Pinchit, the underground haven for tech visionaries and code rebels. Enjoy the excitement of deciphering mysterious updates on cutting-edge technologies. Display your work among the thrilling camaraderie of other tech rebels. Prepare for an adrenaline-fueled adventure through the coolest tech community. It will be revealed soon!",
+        Enter the digital shadows of Pinchit, the underground haven for tech visionaries and code rebels. Enjoy the excitement of deciphering mysterious updates on cutting-edge technologies and displaying your work among the thrilling camaraderie of other tech rebels. Prepare for an adrenaline-fueled adventure through the coolest tech community, soon to be revealed!
       </Typography>
     ),
   },
   {
     id: 4,
-    question: <Typography color="white">"When can you see us?"</Typography>,
+    question: <Typography color="white">When can you see us?</Typography>,
     answer: (
       <Typography color="white" className="text-justify">
-        "We are presently working on our entire throttel, and you may anticipate us to debut at any moment soon. Please hold your breath, for once we are launched, we will not be stopping. Please click the subscribe button to never miss an update from Pinchit.",
+        We are currently working on our entire throttle, and you can anticipate our debut at any moment soon. Please hold your breath, for once we are launched, we will not be stopping. Please click the subscribe button to never miss an update from Pinchit.
       </Typography>
     ),
   },
