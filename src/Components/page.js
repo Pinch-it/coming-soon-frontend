@@ -34,7 +34,7 @@ const Questions = [
     question: <Typography color="white">What is Pinch.it?</Typography>,
     answer: (
       <Typography color="white" className="text-justify">
-        Welcome to Pinchit, a secret gathering of tech enthusiasts! Explore the secrets of cutting-edge technology in a thriving development community. Uncover secret upgrades, demonstrate your technological prowess, and embrace the spirit of innovation. Join the mystery—the great reveal awaits! 🔍💻🌐,
+        Welcome to Pinchit, a secret gathering of tech enthusiasts! Explore the secrets of cutting-edge technology in a thriving development community. Uncover secret upgrades, demonstrate your technological prowess, and embrace the spirit of innovation. Join the mystery—the great reveal awaits!
       </Typography>
     ),
   },

@@ -57,8 +57,8 @@ const EmailForm = () => {
         value={email}
         onChange={handleEmailChange}
       />
-      <button className="bg-indigo-300 h-[2.5rem] text-white sm:w-[6rem] md:w-[12rem] lg:w-[10rem] pt-[1px] px-[5px] ml-2 rounded-full text-stone-100' text-stone-100" type="submit" onClick={handleSubmit}>
-        SUBSCRIBE
+      <button className="bg-indigo-300 h-[2.5rem] text-white sm:w-[6rem]  max-sm:w-[15] md:w-[12rem] lg:w-[10rem] pt-[1px] px-[5px] smm:px-[15px] ml-2 rounded-full text-stone-100' text-stone-100" type="submit" onClick={handleSubmit}>
+        Subscribe
       </button>
       {!isValidEmail && emailSubmitted && (
         <p className="text-red-500 text-sm mt-1 relative">
