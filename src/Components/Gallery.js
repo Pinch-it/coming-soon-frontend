@@ -143,15 +143,15 @@ const Gallery = () => {
     <div className="z-10 ">
       <div className="gallery">
         <ul className="cards">
-        <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-zKGw4YHuv8AN3G-I4OQSNzkLW2EarWfXODNtL7TM2YxI8_U2NAKjnK2mJF2EEqfwrud57eh8FfzHeXQMm8Ak0tWlGw4Q=s1600" alt="Gaming"/></li>
-          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xjEzdMtG_4MNF70GrTFOAv9DbeRDGk4YqY2Tzy7zfwTPu55mv1n-2JQ9dVkucEXIK9-wehxl-ZV53Zp-0YBKz4_Bsx=s1600" alt="Blockchain"/></li>
-          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xcqn6lji5dghhoJNMiA5WgSDNJ-bfDfw8pdSk-_O34GUr71xizV8dGx6eEs7D1RfAen_le4O2KS0nVeEi2z0Jc3Y9pSQ=s1600" alt="cloud"/></li>
-          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wqHfzdfywGoWlmf8T-Qfcx9YfOIw3ekXGD8KlVu3Y-GN27AqG0QNB-YrmgKG-rCinkkMM1xMA89ECT47YwJ0PvgQXNFQ=s1600" alt="AI"/></li>
-          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wPFJPiCgzNfVgT9mmehAI2qLGTY65ERzoleXx-OWnvKkkfvhr7koTnf01Zzk_EqKM70PF1kAmu1jb3CfDn4p9pC54Vtw=s1600" alt="ARVR"/></li>
-          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-zbLFX70wmqTcoBR7f7E2wB7Sb7hfhemA8YX15m0a_netsTX3eLcGQiw1PMP4e303IKAAD6jGFsM27hiII7_Y0f-7xTvQ=s1600" alt="DataScience"/></li>
-          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xV9POJoOJQFCix1qUhOTAaaUAmh0SegD6pyd9_okvENRHU8EWwFpTCk_IfFoBHqdpJ7E7QsSNGIW9fnUuKcKusyfZQkg=s1600" alt="WebDev"/></li>
-          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-w6SqeFmFjUM1MI1tcyuZef66-OOpMcHv-5K1o-D-AIFYMRXU7-98UrkAAtA0A4eneMNSmNx1u6J9NVKvF85A=s1600" alt="AppDev"/></li>
-          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xjxGNntlcKGHDE2owrOgk3RWrHWuB5_4QbJecvp02X_omP4stg97SO_TwBA8gE4cI1wzXnk_EHmdKibg7aHZ8yGxkz=s1600" alt="CyberSecurity"/></li>
+        <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-zjp8Brp8wMDin3-3OAGf2EIoysW1N8l3mPk4tXNIrQKT7bmOnKaUOIwpPAbrFN3qKq1UVEYcxAlg4fyEgAD3vlc_Rlfg=s1600" alt="Gaming"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wIl1cwmvS4m-XELA4ZGp2hZml0wSx3xahHGyH4W6DDLmMX7I6Nd8UoFgD7riK8FA0W9mtXEIDmI1jLwl_XbYG1fk3U=s1600" alt="Blockchain"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wqseCVGi87T_LxCDEho5NqTTmi_o_6cmDuRd-4sYqxARm42khA61IT4lQumBhRAUVOcxXhSVU5PCqQ-2D-fb4XpELH_Q=s1600" alt="cloud"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-xu1XLwWZQpVszbd3DBlry2xG18RXZUTehQZ4da4GkSwMEY3_e7mgKD3ldcVnUpXKXkfINMvSiL2AWF7mBgrModVesyhA=s1600" alt="AI"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-yI3NiYiipRI1YAMnS-ak4AnA-dRE__TxPkWWGz4wrGXxJGYVQZSGcDaYpEvIwtaLCJ4EDxC3rLjSVKcyE26PYkUGwOIQ=s1600" alt="ARVR"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-ygT_gsP-FXm2G2vYlySCBAGweLOJ6rePyFY2pvtVzGMkKhTNID_Bx_FH50cMkOXSIy7VVzXCI6l7gxc0bUve0UZoC_qw=s1600" alt="DataScience"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wadXaM0xk4-CUiyCqMkmZvQ4JVgD9SW18RfudGzVWxLVr5jrl65R3eoD6R-L7SBfJz1cE-Bz1rgOYf5YtRd3smG0h0bA=s1600" alt="WebDev"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-wqOim4t5cece1jrSOhTti9cGBZu48J8CeHqXMIWyXvPEGtd479KST-2Y6RGU7bs-dkEoMBCUVdxvwmRcYiwQ=s1600" alt="AppDev"/></li>
+          <li><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-zD78yugV9NuHkrtj-5RTpg64tRfh1HR9AOLJHo8RUb3TyEfOQfhsxrtem_RvV8YzwApvS7-5-8l51kCroAB7Jshhy7=s1600" alt="CyberSecurity"/></li>
         </ul>
       </div>
       <div className="drag-proxy"></div>
